@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.header{
+    background-color: black;
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 80px;
+    font-size: 1.1em;
+    font-style: normal;
+    letter-spacing: 20px;
+    text-align: center;
+    overflow: auto;
+    z-index: 2;
+
+    
+}   
+
+.headertxt{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+
+.welcome{
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 860px;
+    color: white;
+    font-size: 4.3em;
+    text-align: center;
+    letter-spacing: 50px;
+    animation-name: welcome;
+    animation-duration: 4.5s ;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+h1.welcome{
+    padding-left: 35px;
+    padding-top: 200px;
+}
+
+.container{
+    background-color: rgba(235, 235, 235, 0.651);
+    width: 100%;
+    height: 1750px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box1{
+    background-color: rgb(14, 46, 22);
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    z-index: 0;
+    
+}
+
+
+.quote{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15px;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.image{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  500px;
+    padding-top: 80px;
+    border-radius: 50%;
+   
+}
+
+.info{
+    width: 500px;
+    height: 850px;
+    background-color: rgb(14, 46, 22);
+    float: left;
+    margin-top: 250px;
+    margin-left: 150px;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2), 8px 10px 20px 8px rgba(0, 0, 0, 0.19) ;
+    animation-name: info;
+    animation-duration: 3s;
+}
+
+.PI{
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+li{
+    font-size: 30px;
+    color: white;
+    padding-top: 35px;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   
+
+}
+
+.aboutme{
+    width: 800px;
+    height: 850px;
+    background-color:  rgb(14, 46, 22);
+    float: right;
+    margin-top: 250px;
+    margin-right: 150px;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19) ;
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+}
+
+.vector{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 700px;
+    right: 600px;
+}
+
+.link{
+    padding-left: 120px;
+}
+
+a{
+    color: white;
+}
+
+@keyframes welcome {
+    0% { background-color: rgb(66, 66, 66); color: rgba(255, 255, 255,1); height: 860px;}
+    100% { background-color: rgba(66, 66, 66,0); color: rgba(0, 115,0,0); height: 0px;}
+}
